@@ -8,6 +8,7 @@ matplotlib.use('Agg')
 # Get some x-values
 xAxis = list(range(0,64))
 
+#Make every number in xAxis a tenth of its size
 xTenth = []
 for x in xAxis:
   xTenth.append(x*0.1)
